@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "Grid\grid.h"
+#include "Grid/grid.h"
 
 using namespace crafts;
 

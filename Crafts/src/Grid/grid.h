@@ -1,7 +1,10 @@
 #pragma once
 
 #include <iostream>
+#include <algorithm>
 #include <FreeImage.h>
+
+#include "../Utils/math.h"
 
 namespace crafts {
 
