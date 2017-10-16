@@ -1,7 +1,13 @@
 #include <iostream>
 
+#include "Grid\grid.h"
+
+using namespace crafts;
+
 int main()
 {
-	std::cout << "Hello World!" << std::endl;
+	Grid grid("Ref.png");
+	grid.applySimpleGrid("test.png");
+
 	std::cin.get();
 }
