@@ -8,10 +8,14 @@ namespace crafts {
 	class Grid
 	{
 	private:
-		const char* m_File;
+		FIBITMAP* image;
 	public:
-		Grid(const char* file);
-		void applySimpleGrid(const char* outPath);
+		Grid();
+		void loadImage(const char* file);
+		void unloadImage();
+		void saveImage(const char* outPath);
+
+		void applySimpleGrid();
 	};
 
 }
